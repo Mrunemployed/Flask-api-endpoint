@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <p>
+        Heyy, this is the landing page of this App!
+    </p>
+    <p>
+        {{name}}
+    </p>
+    <p>
+    
+        {%for i in  range(10) %}
+            {%if i%2 == 0 %}
+                <p>{{i}}</p>
+            {%endif%}
+
+        {%endfor%}
+
+    </p>
+</body>
+</html>
